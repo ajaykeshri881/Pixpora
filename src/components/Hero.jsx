@@ -25,13 +25,13 @@ const Hero = () => {
 
     return (
         <div className='relative min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden bg-[#0d0d0d]'>
-            {/* Subtle Grid Background */}
+            
             <div className='absolute inset-0 opacity-30 grid-bg'></div>
 
-            {/* Centered Gradient Blob - subtle and centered */}
+        
             <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-gradient-to-r from-[#00ff88]/5 via-[#00d4ff]/5 to-[#ff00ea]/5 rounded-full blur-[150px]'></div>
 
-            {/* Content */}
+          
             <div className='relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 py-12 text-center'>
                 {/* Title */}
                 <motion.h1

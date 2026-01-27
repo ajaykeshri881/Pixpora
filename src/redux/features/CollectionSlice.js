@@ -1,16 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-// Helper to create an optimized thumbnail URL (fast loading)
+// helper to create an optimized thumbnail URL( for fast loading)
 const optimizeThumbnail = (url) => {
     if (!url) return url
 
-    // For Unsplash images - use w=200 (very fast loading)
+    // For Unsplash images 
     if (url.includes('images.unsplash.com')) {
         const baseUrl = url.split('?')[0]
         return `${baseUrl}?w=200&q=60`
     }
 
-    // For Pexels images - use w=200
+    // For Pexels images
     if (url.includes('images.pexels.com')) {
         const baseUrl = url.split('?')[0]
         return `${baseUrl}?auto=compress&cs=tinysrgb&w=200`

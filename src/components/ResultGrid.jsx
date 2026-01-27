@@ -19,7 +19,6 @@ const ResultGrid = () => {
     setModalOpen(true)
   }
 
-  // Auto-switch from removed 'gif' tab to 'photos'
   useEffect(() => {
     if (activeTab === 'gif') {
       dispatch(setActiveTabs('photos'))
