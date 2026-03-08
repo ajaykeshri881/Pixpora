@@ -78,13 +78,7 @@ const NotFoundPage = () => {
             <Home size={18} />
             Back to Home
           </Link>
-          <Link
-            to='/explore'
-            className='group flex items-center gap-2 px-7 py-3.5 border border-white/10 text-white font-semibold rounded-full hover:border-[#00ff88]/40 hover:text-[#00ff88] hover:bg-[#00ff88]/5 transition-all duration-300'
-          >
-            <Search size={18} />
-            Explore Media
-          </Link>
+      
         </motion.div>
 
       </div>
