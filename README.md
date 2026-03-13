@@ -30,4 +30,3 @@ It integrates the **Unsplash** and **Pexels** APIs to deliver high-quality visua
 - Tailwind CSS
 - Unsplash API
 - Pexels API
-
